@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | นมสดส้มโอ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+
+<div class="login-box">
+    <img src="images/logo.png" class="login-logo" alt="นมสดส้มโอ">
+    <h1>นมสดส้มโอ</h1>
+    <p>สด หอม อร่อย ทุกแก้ว 🍊</p>
+
+    <form onsubmit="login(event)">
+        <label>อีเมล</label>
+        <input type="email" id="email" placeholder="กรอกอีเมล" required>
+
+        <label>รหัสผ่าน</label>
+        <input type="password" id="password" placeholder="กรอกรหัสผ่าน" required>
+
+        <button type="submit">เข้าสู่ระบบ</button>
+    </form>
+
+    <small>ยินดีต้อนรับสู่ร้านนมสดส้มโอ</small>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ติดต่อเรา | นมสดส้มโอ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="นมสดส้มโอ">
+        <h2>นมสดส้มโอ</h2>
+    </div>
+
+    <nav>
+        <a href="index.html">หน้าหลัก</a>
+        <a href="products.html">สินค้า</a>
+        <a href="promotion.html">โปรโมชั่น</a>
+        <a href="about.html">เกี่ยวกับเรา</a>
+        <a href="contact.html" class="active">ติดต่อเรา</a>
+    </nav>
+</header>
+
+<main class="contact-main">
+
+    <h1>ติดต่อเรา 🍊</h1>
+
+    <p class="contact-subtitle">
+        สอบถามข้อมูลหรือส่งข้อความถึงร้านนมสดส้มโอ
+    </p>
+
+    <div class="contact-container">
+
+        <section class="contact-intro">
+
+            <img src="images/milk.png" alt="เครื่องดื่มนมสด">
+
+            <h2>สด หอม อร่อย ทุกแก้ว</h2>
+
+            <p>
+                เราตั้งใจทำเครื่องดื่มทุกแก้ว
+                ให้สดใหม่และอร่อยสำหรับลูกค้าของเรา
+            </p>
+
+            <div class="info-item">
+                🥛 <strong>สดใหม่ทุกวัน</strong>
+                <small>เลือกใช้วัตถุดิบคุณภาพ</small>
+            </div>
+
+            <div class="info-item">
+                🍊 <strong>เมนูหลากหลาย</strong>
+                <small>มีทั้งนมสด โกโก้ และเมนูปั่น</small>
+            </div>
+
+        </section>
+
+
+        <section class="contact-form">
+
+            <h2>ส่งข้อความถึงเรา</h2>
+
+            <form onsubmit="sendMessage(event)">
+
+                <label>ชื่อ</label>
+                <input type="text" id="name" placeholder="กรอกชื่อ" required>
+
+                <label>อีเมล</label>
+                <input type="email" id="contactEmail" placeholder="กรอกอีเมล" required>
+
+                <label>ข้อความ</label>
+                <textarea id="message" placeholder="เขียนข้อความ..." required></textarea>
+
+                <button type="submit">ส่งข้อความ</button>
+
+            </form>
+
+        </section>
+
+    </div>
+
+    <div class="shop-info">
+
+        <h2>ข้อมูลร้าน</h2>
+
+        <div class="shop-details">
+            <span>📍 ร้านนมสดส้มโอ</span>
+            <span>📞 065-865-0196</span>
+            <span>📧 bandit.ka@rmuti.ac.th</span>
+            <span>🕐 17:30 - 24:30 น.</span>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p> 2026 นมสดส้มโอ | สด หอม อร่อย ทุกแก้ว 🍊</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
